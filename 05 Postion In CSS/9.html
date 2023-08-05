@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover To View Options</title>
+    <style>
+        .mainmenu {
+            position: relative;
+            background-color: #ff6d6d;
+            display: inline-block;
+            top: 10px;
+            margin: 10px;
+        }
+        .submenu {
+            display:none;
+            position: absolute;
+            background-color: #ffffff;
+            border: 1px solid #adadad;
+            max-height: 200px;
+            overflow-y: scroll;
+            width: 200px;
+        }
+        .mainmenu:hover .submenu{
+            display:block;
+        } 
+        .submenu-option{
+            padding: 10px;
+            cursor:pointer;
+        }
+        .submenu-option:hover{
+            background-color: #dfdfdf
+        }
+        span{
+            padding: 10px 25px;
+            background-color: #ff6d6d;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainmenu">
+        <span>Hover To View Options</span>
+        <div class="submenu">
+            <div class="submenu-option">Option 1</div>
+            <div class="submenu-option">Option 2</div>
+            <div class="submenu-option">Option 3</div>
+            <div class="submenu-option">Option 4</div>
+            <div class="submenu-option">Option 5</div>
+            <div class="submenu-option">Option 6</div>
+            <div class="submenu-option">Option 7</div>
+            <div class="submenu-option">Option 8</div>
+            <div class="submenu-option">Option 9</div>
+            <div class="submenu-option">Option 10</div>
+        </div>
+    </div>
+</body>
+</html>
