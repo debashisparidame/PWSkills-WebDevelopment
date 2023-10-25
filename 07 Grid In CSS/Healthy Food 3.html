@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food</title>
+    <style>
+        nav{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: auto;
+            align-items: center;
+            grid-template-columns: repeat(3, 2fr);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        nav img{
+            width: 50px;
+        }
+        nav a{
+            text-decoration: none;
+            padding-right: 50px;
+            color:black;
+        }
+        nav a:hover {
+            color: #00ee7f;
+            font-weight: bold;
+        }
+        nav button{
+            border: 0;
+            background-color: #00ee7f;
+            border-radius: 5px;
+            margin-left: 60%;
+            padding: 10px 0px;
+            color: black;
+            font-weight: bold;
+        }
+        .hero-container{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .text-section{
+            padding: 10px;
+        }
+        .text-section h1{
+            font-size: 40px;
+        }
+        .text-section button{
+            border: 0;
+            background-color: black;
+            color: white;
+            padding: 10px 40px;
+            margin-top: 30px;
+        }
+        .side-image{
+            background-color: yellow;
+            height: 100%;
+            max-height: 100vh;
+        }
+        .side-image img{
+            width: 70%;
+            height: 100%;
+        }
+        .section-03{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #2b1e16;
+        }
+        .sub-section {
+        margin: 10px 50px;
+        text-align: center;
+      }
+      .sub-section img {
+        width: 150px;
+      }
+      .sub-section h1 {
+        color: #fff;
+      }
+      .sub-section p {
+        color: #8c6e54;
+      }
+      .sub-section-03-heading {
+        margin-top: 60px;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png" alt="Nav Logo">
+    <div>
+        <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+    </div>
+    <button>Login</button>
+    </nav>
+    <div class="hero-container">
+        <section class="text-section">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa tenetur repellendus qui eligendi harum unde placeat sunt corporis voluptatum explicabo molestias, culpa dicta alias ea tempora blanditiis? Alias dignissimos ut, inventore possimus fugiat nobis. Ipsa voluptates expedita laboriosam earum fuga accusamus eum. Ducimus similique natus suscipit cumque beatae labore! Iure autem minus expedita culpa magnam laborum totam vero. Quasi voluptas quia fugiat neque tempora earum dolore! Perspiciatis veritatis aut ducimus beatae alias obcaecati magni numquam, eius eum eveniet veniam quo exercitationem nihil aliquam quod accusamus nam possimus, doloribus molestias laudantium? Consectetur facere dolorum enim dolorem quidem tenetur eos dicta praesentium!</p>
+            <button>Read More</button>
+        </section>
+        <section class="side-image">
+            <img src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="Food">
+        </section>
+    </div>
+    <section class="section-03">
+        <div class="sub-section">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="Food">
+            <h1>No Minimum Order</h1>
+            <p> Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="sub-section">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="Food">
+            <h1>Live Order Tracking</h1>
+            <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div class="sub-section">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="Food">
+            <h1 class="sub-section-03-heading">Lightning-Fast Delivery</h1>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </div>
+    </section>
+</body>
+</html>
